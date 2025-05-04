@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NatureQuest: Exploring the Wild</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <h1>NatureQuest: Exploring the Wild</h1>
+        <p>Tervetuloa virtuaaliselle metsäretkelle! Valitse reitti ja tutki luontoa.</p>
+    </div>
+    
+    <div class="map">
+        <h2>Valitse luontoreitti:</h2>
+        <button onclick="exploreForest()">Metsäpolku</button>
+        <button onclick="exploreRiver()">Jokiretki</button>
+        <button onclick="exploreMountain()">Vuoriretki</button>
+    </div>
+
+    <div class="nature-info">
+        <h2>Luontofaktat</h2>
+        <p id="fact">Klikkaa reittiä ja tutustu luontoon!</p>
+    </div>
+
+    <div class="audio-controls">
+        <button onclick="toggleSounds()">Toggle Sounds</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
